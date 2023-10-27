@@ -34,3 +34,47 @@ execute:
 #   chunk_output_type: console
 #   render-on-save: true
 ---
+
+
+# About
+
+> Have **more** than you show, speak *less* than you know. 
+
+-- William Shakespeare
+
+## Quarto
+
+A **technical writing** system that produces *reproducible*, *versioned*, and *extensible* documents.
+
+![](quarto-dark-bg.jpeg)
+
+## Styling
+
+[**Pandoc-flavoured Markdown**](https://quarto.org/docs/authoring/markdown-basics.html) for text formatting.
+
+This is **bold** and this _is_ *italic*. And this is `code`. What about a [link](https://quarto.org)? And a footnote[^1]? Perhaps a crossed out text ~~like this~~?
+
+
+## Paragraphs
+
+> This is a blockquote.
+
+For code, text is formatted according to the language specified in the code block and syntax highlighting is applied.
+
+```{r}
+#| eval: false
+# This is what code input looks like
+helloworld <- function() {
+  print("This is what code output looks like!")
+}
+```
+
+
+If code produces an output, it is displayed below the code block with no additional formatting.
+
+```{r}
+#| echo: false
+print("And this is what code output looks like!")
+```
+
+[^1]: This is a footnote.
