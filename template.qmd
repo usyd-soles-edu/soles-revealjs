@@ -1,0 +1,36 @@
+---
+title: "SOLES Quarto reveal.js Template"
+subtitle: A useful template for technical presentations involving code and mathematics
+institute: The University of Sydney
+date: today
+date-format: "MMM YYYY"
+author: 
+  name: Januar Harianto
+  affiliation: Lecturer in Agricultural Data Science & Biostatistics
+format:
+  revealjs: 
+    theme: [default, theme.scss]
+    slide-number: c/t
+    code-copy: true
+    code-link: false
+    code-overflow: wrap
+    highlight-style: arrow
+    html-math-method: katex
+    embed-resources: false # set to true to embed reveal.js resources in the output
+    mermaid:
+      theme: forest
+    # use first slide for toc
+    toc: true
+    toc-depth: 1
+    toc-title: Lecture overview
+    
+  # pptx: 
+  #   reference-doc: template.pptx
+execute: 
+  eval: true
+  echo: true
+#   freeze: auto  # re-render only when source changes
+# editor_options: 
+#   chunk_output_type: console
+#   render-on-save: true
+---
