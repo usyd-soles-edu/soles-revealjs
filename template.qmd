@@ -33,17 +33,21 @@ editor_options:
   render-on-save: true
 ---
 
-```{css}
-p {
-padding-bottom: 30px;
-}
-```
+
+
+# Acknowledgement
+
+This template licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+You may use this template for your own presentations provided that you:
+
+-   Give proper attribution. An example can be viewed on the [last slide](#last-slide).
+-   Share any modifications under the same license.
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 
 # About
 
-> Have **more** than you show, speak *less* than you know. 
-
--- William Shakespeare
+> Have **more** than you show, speak *less* than you know. -- *William Shakespeare*
 
 ## Quarto
 
@@ -51,33 +55,34 @@ A **technical writing** system that produces *reproducible*, *versioned*, and *e
 
 ![](quarto-dark-bg.jpeg)
 
-## Styling
+## Markdown
 
-[**Pandoc-flavoured Markdown**](https://quarto.org/docs/authoring/markdown-basics.html) for text formatting.
+Quarto uses [**Pandoc-flavoured Markdown**](https://quarto.org/docs/authoring/markdown-basics.html) for text formatting.
 
-This is **bold** and this _is_ *italic*. And this is `code`. What about a [link](https://quarto.org)? And a footnote[^1]? Perhaps a crossed out text ~~like this~~?
+This is **bold** and this _is_ *italic*. And this is `code`. What about a [link](https://quarto.org)? And a footnote[^1]? Perhaps a crossed out text ~~like this~~? We can also use subscript~s~ and superscript^s^.
 
+- A list...
+- ...for the *unordered*.
 
-## Paragraphs
-
-> This is a blockquote.
-
-For code, text is formatted according to the language specified in the code block and syntax highlighting is applied.
-
-```{r}
-#| eval: false
-# This is what code input looks like
-helloworld <- function() {
-  print("This is what code output looks like!")
-}
-```
-
-
-If code produces an output, it is displayed below the code block with no additional formatting.
-
-```{r}
-#| echo: false
-print("And this is what code output looks like!")
-```
 
 [^1]: This is a footnote.
+
+## Reveal.js
+
+A **presentation** framework that uses HTML and CSS to create slides. No need for PowerPoint or Keynote.
+
+
+
+# Examples
+
+## Randomisation
+
+> The **replicated**, **randomised**, **controlled** experiment.
+
+![](images/random.webp){fig-align="center"}
+
+# Thanks! {#last-slide}
+
+These slides are made with [Quarto](https://quarto.org/index.html) using the [SOLES RevealJS Quarto extension](https://github.com/usyd-soles-edu/soles-revealjs).
+
+All content is licensed under a [CC BY-SA 4.0 License][cc-by-sa].
