@@ -19,20 +19,18 @@ format:
     embed-resources: false # set to true to embed reveal.js resources in the output
     mermaid:
       theme: forest
-    # use first slide for toc
-    toc: true
+    toc: true  # use first slide for toc
     toc-depth: 1
     toc-title: Lecture overview
-    
   # pptx: 
   #   reference-doc: template.pptx
 execute: 
   eval: true
   echo: true
 #   freeze: auto  # re-render only when source changes
-# editor_options: 
-#   chunk_output_type: console
-#   render-on-save: true
+editor_options:
+  chunk_output_type: console
+  render-on-save: true
 ---
 
 ```{css}
