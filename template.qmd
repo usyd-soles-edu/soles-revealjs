@@ -61,11 +61,11 @@ Quarto is available for Windows, macOS, and Linux. See [installation instruction
 
 ### Recommendation
 
-I recommend using [**Visual Studio Code**](https://code.visualstudio.com/) as the editor for Quarto. It is free, open-source, and has a lot of extensions that can be used to enhance the writing experience.
+[**Visual Studio Code**](https://code.visualstudio.com/) is recommended as the editor for Quarto. It is free, open-source, and has a lot of extensions that can be used to enhance the writing experience.
 
 ### However...
 
-If you are used to the RSuite editor, you can also use that. In fact, it is perhaps the easiest way to get started with Quarto if you are already familiar with the R environment.
+Users familiar with [RStudio](https://posit.co/) can also use it to write Quarto documents. See [here](https://quarto.org/docs/get-started/hello/rstudio.html) for more information.
 
 
 ## Markdown
