@@ -55,7 +55,7 @@ Colours are applied in a *neutral* way, using the official University of Sydney 
 
 # Quick start
 
-## Installation
+## Installing Quarto
 
 Quarto is available for Windows, macOS, and Linux. See [installation instructions](https://quarto.org/docs/getting-started/installation.html).
 
@@ -66,6 +66,32 @@ Quarto is available for Windows, macOS, and Linux. See [installation instruction
 ### However...
 
 Users familiar with [RStudio](https://posit.co/) can also use it to write Quarto documents. See [here](https://quarto.org/docs/get-started/hello/rstudio.html) for more information.
+
+## Installing this template
+
+There are three (3) ways:
+
+
+### 1. Recommended: Use the Quarto CLI
+
+With the [**Quarto CLI**](https://quarto.org/docs/getting-started/installation.html#installing-the-quarto-cli) installed, run the following command in your terminal and follow the instructions:
+
+```sh
+quarto use template usyd-soles-edu/soles-revealjs
+```
+### 2. Download the template directly
+
+You can download the template folder directly from GitHub, ready to use. Go to the [repository](https://github.com/usyd-soles-edu/soles-revealjs) and click on "< > Code", then "Download ZIP". Once you unzip the folder.
+
+
+### 3. Clone the template repository
+
+Go to the [repository](https://github.com/usyd-soles-edu/soles-revealjs) and click on "Use this template". Note that you will need to be familiar with Git and GitHub to use this method.
+
+## Editing the template
+
+All written content is in the `template.qmd` file. You may rename it to whatever you like.
+
 
 
 ## Markdown
