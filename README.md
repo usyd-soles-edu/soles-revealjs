@@ -2,9 +2,31 @@
 
 This is a Quarto template for creating [Reveal.js](https://revealjs.com/#/) presentations. It has minimal styling and is designed to be used for presentations that contain code.
 
+## Using this template
+
+The easiest way is to click on "Use this template", which can be found at the top of the repository page. This will create a new repository in your account that you can use to create your presentation, and the presentation will be automatically published to GitHub Pages!
+
+Alternatively, run the following command in your terminal:
+
+```sh
+quarto use template usyd-soles-edu/soles-revealjs
+```
+
+You may also download the template manually by clicking on the green "Code" button above and selecting "Download ZIP". You will need to unzip the file and move the folder to a location where you can find it.
+
+## Editing your presentation
+
+Open the `.qmd` file in your favourite text editor and start editing. If you wish to render the presentation, you can do so by running the following command in your terminal:
+
+```sh
+quarto render
+```
+
+Alternatively, use VS Code or RStudio to edit and render your presentation automatically.
+
 Todo:
 
-- [ ] Add minimal template
+- [x] Add minimal template
 - [ ] Include automatic publishing
 - [ ] Add instructions
 - [ ] Link to examples that use this template
