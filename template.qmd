@@ -1,88 +1,143 @@
 ---
-title: "SOLES Quarto reveal.js Template"
-subtitle: A useful template for technical presentations involving code and mathematics
-institute: The University of Sydney
-date: today
-date-format: "MMM YYYY"
-author: 
-  name: Januar Harianto
-  affiliation: Lecturer in Agricultural Data Science & Biostatistics
+title: Quarto reveal.js Template
+subtitle: School of Life and Environmental Sciences (SOLES)
 format:
-  revealjs: 
-    theme: [default, theme.scss]
-    slide-number: c/t
-    code-copy: true
-    code-link: false
-    code-overflow: wrap
-    highlight-style: arrow
-    html-math-method: katex
-    embed-resources: false # set to true to embed reveal.js resources in the output
-    mermaid:
-      theme: forest
-    toc: true  # use first slide for toc
-    toc-depth: 1
-    toc-title: Lecture overview
-  # pptx: 
-  #   reference-doc: template.pptx
+  soles-revealjs:
+    logo: images/usyd_horizontal.svg
+    self-contained: false # set to true to produce a single HTML file
+    transition: none # none | fade | slide | convex | concave | zoom
+    background-transition: none 
+highlight-style: github
+author: Januar Harianto
+institute: The University of Sydney
+date: last-modified # today | last-modified
+date-format: "MMM YYYY" # see https://momentjs.com/docs/#/displaying/format/
+revealjs-plugins:
+  - verticator
 execute: 
   eval: true
   echo: true
-#   freeze: auto  # re-render only when source changes
-editor_options:
-  chunk_output_type: console
-  render-on-save: true
+
 ---
-
-
-
-# Acknowledgement
-
-This template licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
-You may use this template for your own presentations provided that you:
-
--   Give proper attribution. An example can be viewed on the [last slide](#last-slide).
--   Share any modifications under the same license.
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 
 # About
 
-> Have **more** than you show, speak *less* than you know. -- *William Shakespeare*
+:::{.callout-important}
+This template is on a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa]. If you choose to use this template, please attribute the source. You may also share your work under the same license. For example:
+
+> This presentation is based on the [SOLES Quarto reveal.js template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+Note that you do **not** need to license your presentation under CC-BY-SA 4.0. You can choose a different license, or no license at all. **The only requirement is that you attribute the source.**
+:::
+
+ 
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+
 
 ## Quarto
 
 A **technical writing** system that produces *reproducible*, *versioned*, and *extensible* documents.
 
-![](quarto-dark-bg.jpeg)
+![](images/quarto.jpeg)
+
+## Features
+Follows the **University of Sydney** brand guidelines in a bare *minimal* way.
+
+### Logos
+The Primary logo is used on the title slide (black), and the secondary horizontal logo is used on the other slides.
+
+### Fonts
+Body text in *Source Sans Pro*, other text in *Times New Roman*. These are the official alternate fonts to *Apercu Pro* and *Lyon Display* fonts.
+
+### Colours
+Colours are used in a *neutral* way using the official University of Sydney colour palette of [**Ochre**]{style="color:#e64626"}, [**Charcoal**]{style="color:#424242"}, [**Heritage Rose**]{style="color:#daa8a2"}, [**Jacaranda**]{style="color:#8f9ec9"} and [**Eucalypt**]{style="color:#71a499"}. No colour is applied to the background, except for code blocks.
+
+# Quick start
+
+## Installation
+
+Quarto is available for Windows, macOS, and Linux. See [installation instructions](https://quarto.org/docs/getting-started/installation.html).
+
+### Recommendation
+
+I recommend using [**Visual Studio Code**](https://code.visualstudio.com/) as the editor for Quarto. It is free, open-source, and has a lot of extensions that can be used to enhance the writing experience.
+
+### However...
+
+If you are used to the RSuite editor, you can also use that. In fact, it is perhaps the easiest way to get started with Quarto if you are already familiar with the R environment.
+
 
 ## Markdown
 
+
+### Flavour
+
 Quarto uses [**Pandoc-flavoured Markdown**](https://quarto.org/docs/authoring/markdown-basics.html) for text formatting.
 
-This is **bold** and this _is_ *italic*. And this is `code`. What about a [link](https://quarto.org)? And a footnote[^1]? Perhaps a crossed out text ~~like this~~? We can also use subscript~s~ and superscript^s^.
+### Formatting
 
-- A list...
-- ...for the *unordered*.
+**Bold** and *italic*. `Inline code`. What about a [link](https://quarto.org)? And a footnote[^1]? Perhaps a ~~crossed out text~~? We can also use subscript~s~ and superscript^s^.
+
+
+### Lists
+
+- Lists **must** be preceded by a blank line.
+- We can also created nested lists:
+  1. This list is ordered.
+  2. This list is also nexted.
 
 
 [^1]: This is a footnote.
 
-## Reveal.js
-
-A **presentation** framework that uses HTML and CSS to create slides. No need for PowerPoint or Keynote.
 
 
+# Advanced features
 
-# Examples
+## Reproducible workflows
 
-## Randomisation
+The advantage of Quarto over traditional slide software is that it allows code and output to be embedded in the document. This means that you can create a document that is **reproducible** and **versioned**.
 
-> The **replicated**, **randomised**, **controlled** experiment.
+### Code example 
 
-![](images/random.webp){fig-align="center"}
+Using R, we show how to fit a linear regression model and print the model summary:
 
-# Thanks! {#last-slide}
+```{r}
+# fit a linear regression model
+model <- lm(mpg ~ wt, data = mtcars)
+# print the model summary
+summary(model)
+```
 
-These slides are made with [Quarto](https://quarto.org/index.html) using the [SOLES RevealJS Quarto extension](https://github.com/usyd-soles-edu/soles-revealjs).
+---
 
-All content is licensed under a [CC BY-SA 4.0 License][cc-by-sa].
+### Code example 2
+
+```{r}
+library(ggplot2)
+library(cowplot)
+# plot a very nice plot based on iris dataset
+ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
+  geom_point() +
+  theme_half_open()
+```
+
+## Equations
+
+Equations are based on [**LaTeX**](https://www.latex-project.org/) and powered by [**MathJax**](https://quarto.org/docs/authoring/math.html).
+
+### Inline equations
+Inline equations are surrounded by `$`. For example, the equation $y = \beta_0 + \beta_1 x + \epsilon$ is a linear regression model.
+
+### Display equations
+Display equations are surrounded by `$$`. For example, one way to display the equation for a [Fourier series](https://en.wikipedia.org/wiki/Fourier_series) is:
+
+$$ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos \left( \frac{2 \pi n x}{L} \right) + b_n \sin \left( \frac{2 \pi n x}{L} \right) \right] $$
+
+## Thanks!
+
+### Attribution
+This presentation is based on the [SOLES Quarto reveal.js template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+### Reproducibility 
+
+You may view the source code of this presentation [here]() (to be updated).
