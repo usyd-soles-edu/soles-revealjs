@@ -37,21 +37,21 @@ Note that you do **not** need to license your presentation under CC-BY-SA 4.0. Y
 
 ## Quarto
 
-A **technical writing** system that produces *reproducible*, *versioned*, and *extensible* documents.
+A **technical writing** system that produces *reproducible*, *versioned*, and *extensible* documents -- the next generation of [**R Markdown**](https://rmarkdown.rstudio.com/).
 
 ![](images/quarto.jpeg)
 
 ## Features
-Follows the **University of Sydney** brand guidelines in a bare *minimal* way.
+Follows the **University of Sydney** brand guidelines.
 
 ### Logos
 The Primary logo is used on the title slide (black), and the secondary horizontal logo is used on the other slides.
 
 ### Fonts
-Body text in *Source Sans Pro*, other text in *Times New Roman*. These are the official alternate fonts to *Apercu Pro* and *Lyon Display* fonts.
+Body text in *Source Sans Pro*, others in *Times New Roman* (official alternate fonts to *Apercu Pro* and *Lyon Display*).
 
 ### Colours
-Colours are used in a *neutral* way using the official University of Sydney colour palette of [**Ochre**]{style="color:#e64626"}, [**Charcoal**]{style="color:#424242"}, [**Heritage Rose**]{style="color:#daa8a2"}, [**Jacaranda**]{style="color:#8f9ec9"} and [**Eucalypt**]{style="color:#71a499"}. No colour is applied to the background, except for code blocks.
+Colours are applied in a *neutral* way, using the official University of Sydney colour palette of [**Ochre**]{style="color:#e64626"}, [**Charcoal**]{style="color:#424242"}, [**Heritage Rose**]{style="color:#daa8a2"}, [**Jacaranda**]{style="color:#8f9ec9"} and [**Eucalypt**]{style="color:#71a499"}. No colour is applied to the background, except for code blocks.
 
 # Quick start
 
