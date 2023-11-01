@@ -17,6 +17,7 @@ revealjs-plugins:
 execute: 
   eval: true
   echo: true
+  freeze: auto
 
 ---
 
