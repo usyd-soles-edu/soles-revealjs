@@ -141,4 +141,4 @@ This presentation is based on the [SOLES Quarto reveal.js template](https://gith
 
 ### Reproducibility 
 
-You may view the source code of this presentation [here]() (to be updated).
+You may view the source code of this presentation [here](https://usyd-soles-edu.github.io/soles-revealjs/) (to be updated).
