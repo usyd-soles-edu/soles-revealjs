@@ -446,31 +446,46 @@ Januar Harianto
 </section>
 <section id="quarto" class="slide level2">
 <h2>Quarto</h2>
-<p>A <strong>technical writing</strong> system that produces <em>reproducible</em>, <em>versioned</em>, and <em>extensible</em> documents.</p>
+<p>A <strong>technical writing</strong> system that produces <em>reproducible</em>, <em>versioned</em>, and <em>extensible</em> documents – the next generation of <a href="https://rmarkdown.rstudio.com/"><strong>R Markdown</strong></a>.</p>
 
 <img data-src="images/quarto.jpeg" class="r-stretch"></section>
 <section id="features" class="slide level2">
 <h2>Features</h2>
-<p>Follows the <strong>University of Sydney</strong> brand guidelines in a bare <em>minimal</em> way.</p>
+<p>Follows the <strong>University of Sydney</strong> brand guidelines.</p>
 <h3 id="logos">Logos</h3>
 <p>The Primary logo is used on the title slide (black), and the secondary horizontal logo is used on the other slides.</p>
 <h3 id="fonts">Fonts</h3>
-<p>Body text in <em>Source Sans Pro</em>, other text in <em>Times New Roman</em>. These are the official alternate fonts to <em>Apercu Pro</em> and <em>Lyon Display</em> fonts.</p>
+<p>Body text in <em>Source Sans Pro</em>, others in <em>Times New Roman</em> (official alternate fonts to <em>Apercu Pro</em> and <em>Lyon Display</em>).</p>
 <h3 id="colours">Colours</h3>
-<p>Colours are used in a <em>neutral</em> way using the official University of Sydney colour palette of <span style="color:#e64626"><strong>Ochre</strong></span>, <span style="color:#424242"><strong>Charcoal</strong></span>, <span style="color:#daa8a2"><strong>Heritage Rose</strong></span>, <span style="color:#8f9ec9"><strong>Jacaranda</strong></span> and <span style="color:#71a499"><strong>Eucalypt</strong></span>. No colour is applied to the background, except for code blocks.</p>
+<p>Colours are applied in a <em>neutral</em> way, using the official University of Sydney colour palette of <span style="color:#e64626"><strong>Ochre</strong></span>, <span style="color:#424242"><strong>Charcoal</strong></span>, <span style="color:#daa8a2"><strong>Heritage Rose</strong></span>, <span style="color:#8f9ec9"><strong>Jacaranda</strong></span> and <span style="color:#71a499"><strong>Eucalypt</strong></span>. No colour is applied to the background, except for code blocks.</p>
 </section></section>
 <section>
 <section id="quick-start" class="title-slide slide level1 center">
 <h1>Quick start</h1>
 
 </section>
-<section id="installation" class="slide level2">
-<h2>Installation</h2>
+<section id="installing-quarto" class="slide level2">
+<h2>Installing Quarto</h2>
 <p>Quarto is available for Windows, macOS, and Linux. See <a href="https://quarto.org/docs/getting-started/installation.html">installation instructions</a>.</p>
 <h3 id="recommendation">Recommendation</h3>
-<p>I recommend using <a href="https://code.visualstudio.com/"><strong>Visual Studio Code</strong></a> as the editor for Quarto. It is free, open-source, and has a lot of extensions that can be used to enhance the writing experience.</p>
+<p><a href="https://code.visualstudio.com/"><strong>Visual Studio Code</strong></a> is recommended as the editor for Quarto. It is free, open-source, and has a lot of extensions that can be used to enhance the writing experience.</p>
 <h3 id="however">However…</h3>
-<p>If you are used to the RSuite editor, you can also use that. In fact, it is perhaps the easiest way to get started with Quarto if you are already familiar with the R environment.</p>
+<p>Users familiar with <a href="https://posit.co/">RStudio</a> can also use it to write Quarto documents. See <a href="https://quarto.org/docs/get-started/hello/rstudio.html">here</a> for more information.</p>
+</section>
+<section id="installing-this-template" class="slide level2">
+<h2>Installing this template</h2>
+<p>There are three (3) ways:</p>
+<h3 id="recommended-use-the-quarto-cli">1. Recommended: Use the Quarto CLI</h3>
+<p>With the <a href="https://quarto.org/docs/getting-started/installation.html#installing-the-quarto-cli"><strong>Quarto CLI</strong></a> installed, run the following command in your terminal and follow the instructions:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource sh number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="ex">quarto</span> use template usyd-soles-edu/soles-revealjs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<h3 id="download-the-template-directly">2. Download the template directly</h3>
+<p>You can download the template folder directly from GitHub, ready to use. Go to the <a href="https://github.com/usyd-soles-edu/soles-revealjs">repository</a> and click on “&lt; &gt; Code”, then “Download ZIP”. Once you unzip the folder.</p>
+<h3 id="clone-the-template-repository">3. Clone the template repository</h3>
+<p>Go to the <a href="https://github.com/usyd-soles-edu/soles-revealjs">repository</a> and click on “Use this template”. Note that you will need to be familiar with Git and GitHub to use this method.</p>
+</section>
+<section id="editing-the-template" class="slide level2">
+<h2>Editing the template</h2>
+<p>All written content is in the <code>template.qmd</code> file. You may rename it to whatever you like.</p>
 </section>
 <section id="markdown" class="slide level2">
 <h2>Markdown</h2>
@@ -499,10 +514,10 @@ Januar Harianto
 <h3 id="code-example">Code example</h3>
 <p>Using R, we show how to fit a linear regression model and print the model summary:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># fit a linear regression model</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a>model <span class="ot">&lt;-</span> <span class="fu">lm</span>(mpg <span class="sc">~</span> wt, <span class="at">data =</span> mtcars)</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="co"># print the model summary</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">summary</span>(model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># fit a linear regression model</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>model <span class="ot">&lt;-</span> <span class="fu">lm</span>(mpg <span class="sc">~</span> wt, <span class="at">data =</span> mtcars)</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co"># print the model summary</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="fu">summary</span>(model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -529,12 +544,12 @@ F-statistic: 91.38 on 1 and 30 DF,  p-value: 1.294e-10</code></pre>
 
 <h3 id="code-example-2">Code example 2</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="fu">library</span>(cowplot)</span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="co"># plot a very nice plot based on iris dataset</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Sepal.Width, <span class="at">color =</span> Species)) <span class="sc">+</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb3-6"><a href="#cb3-6"></a>  <span class="fu">theme_half_open</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">library</span>(cowplot)</span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="co"># plot a very nice plot based on iris dataset</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Sepal.Width, <span class="at">color =</span> Species)) <span class="sc">+</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb4-6"><a href="#cb4-6"></a>  <span class="fu">theme_half_open</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="template_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
