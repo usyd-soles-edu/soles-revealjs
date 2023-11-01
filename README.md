@@ -6,7 +6,7 @@ This is a Quarto template for creating [Reveal.js](https://revealjs.com/#/) pres
 
 The easiest way is to click on "Use this template", which can be found at the top of the repository page. This will create a new repository in your account that you can use to create your presentation, and the presentation will be automatically published to GitHub Pages!
 
-Alternatively, run the following command in your terminal:
+Alternatively, if you do not wish to publish your slides automatically, install the template by running the following command in your terminal:
 
 ```sh
 quarto use template usyd-soles-edu/soles-revealjs
