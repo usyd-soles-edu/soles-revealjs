@@ -437,7 +437,7 @@ Januar Harianto
 <div class="callout-content">
 <p>This template is on a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. If you choose to use this template, please attribute the source. You may also share your work under the same license. For example:</p>
 <blockquote>
-<p>This presentation is based on the <a href="https://github.com/usyd-soles-edu/soles-revealjs">SOLES Quarto reveal.js template</a> and is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+<p>This presentation is based on the <a href="https://github.com/usyd-soles-edu/soles-revealjs">SOLES reveal.js Quarto template</a> and is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
 </blockquote>
 <p>Note that you do <strong>not</strong> need to license your presentation under CC-BY-SA 4.0. You can choose a different license, or no license at all. <strong>The only requirement is that you attribute the source.</strong></p>
 </div>
@@ -550,11 +550,10 @@ F-statistic: 91.38 on 1 and 30 DF,  p-value: 1.294e-10</code></pre>
 <h3 id="code-example-2">Code example 2</h3>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">library</span>(cowplot)</span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="co"># plot a very nice plot based on iris dataset</span></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Sepal.Width, <span class="at">color =</span> Species)) <span class="sc">+</span></span>
-<span id="cb4-5"><a href="#cb4-5"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb4-6"><a href="#cb4-6"></a>  <span class="fu">theme_half_open</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="co"># plot a very nice plot based on iris dataset</span></span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Sepal.Width, <span class="at">color =</span> Species)) <span class="sc">+</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="template_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>

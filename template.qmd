@@ -17,8 +17,6 @@ revealjs-plugins:
 execute: 
   eval: true
   echo: true
-  freeze: auto
-
 ---
 
 # About
@@ -146,11 +144,10 @@ summary(model)
 
 ```{r}
 library(ggplot2)
-library(cowplot)
 # plot a very nice plot based on iris dataset
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
   geom_point() +
-  theme_half_open()
+  theme_minimal()
 ```
 
 ## Equations
