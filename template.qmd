@@ -168,5 +168,3 @@ $$ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos \left( \frac{2 \pi
 # Thanks!
 
 This presentation is based on the [SOLES Quarto reveal.js template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
-
-You may view the source code of this presentation [here](https://usyd-soles-edu.github.io/soles-revealjs/).
