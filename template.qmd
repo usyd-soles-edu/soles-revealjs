@@ -90,7 +90,11 @@ Go to the [repository](https://github.com/usyd-soles-edu/soles-revealjs) and cli
 
 ## Editing the template
 
-All written content is in the `template.qmd` file. You may rename it to whatever you like.
+All written content is in the `template.qmd` file. You may rename this file to whatever you like.
+
+### HTML output
+
+Slides that are generated from this template are in HTML format. You can view the slides by opening the `.html` file in your browser. This file is generated in the same folder as the `.qmd` file.
 
 
 
@@ -126,9 +130,10 @@ The advantage of Quarto over traditional slide software is that it allows code a
 
 ### Code example 
 
-Using R, we show how to fit a linear regression model and print the model summary:
+Using R, we show how to fit a linear regression model and print the model summary. Click on the code dropdown to see the code.
 
 ```{r}
+#| code-fold: true
 # fit a linear regression model
 model <- lm(mpg ~ wt, data = mtcars)
 # print the model summary
@@ -160,11 +165,8 @@ Display equations are surrounded by `$$`. For example, one way to display the eq
 
 $$ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos \left( \frac{2 \pi n x}{L} \right) + b_n \sin \left( \frac{2 \pi n x}{L} \right) \right] $$
 
-## Thanks!
+# Thanks!
 
-### Attribution
 This presentation is based on the [SOLES Quarto reveal.js template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
-### Reproducibility 
-
-You may view the source code of this presentation [here](https://usyd-soles-edu.github.io/soles-revealjs/) (to be updated).
+You may view the source code of this presentation [here](https://usyd-soles-edu.github.io/soles-revealjs/).
