@@ -27,8 +27,8 @@ Alternatively, use VS Code or RStudio to edit and render your presentation autom
 Todo:
 
 - [x] Add minimal template
-- [ ] Include automatic publishing
-- [ ] Add instructions
+- [x] Include automatic publishing
+- [x] Add instructions
 - [ ] Link to examples that use this template
 
 This page is under construction. Please check back later.
