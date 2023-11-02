@@ -26,7 +26,7 @@ execute:
 :::{.callout-important}
 This template is on a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa]. If you choose to use this template, please attribute the source. You may also share your work under the same license. For example:
 
-> This presentation is based on the [SOLES Quarto reveal.js template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+> This presentation is based on the [SOLES reveal.js Quarto template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 Note that you do **not** need to license your presentation under CC-BY-SA 4.0. You can choose a different license, or no license at all. **The only requirement is that you attribute the source.**
 :::
