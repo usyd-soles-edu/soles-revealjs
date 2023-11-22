@@ -22,15 +22,15 @@ execute:
 # About
 
 :::{.callout-important}
-This template is on a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa]. If you choose to use this template, please attribute the source. You may also share your work under the same license. For example:
+This template is on a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by]. If you choose to use this template, please attribute the source. You may also share your work under the same license. For example:
 
-> This presentation is based on the [SOLES reveal.js Quarto template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+> This presentation is based on the [SOLES reveal.js Quarto template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
-Note that you do **not** need to license your presentation under CC-BY-SA 4.0. You can choose a different license, or no license at all. **The only requirement is that you attribute the source.**
+Note that you do **not** need to license your presentation under cc-by 4.0. You can choose a different license, or no license at all. **The only requirement is that you attribute the source.**
 :::
 
  
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
 
 
 ## Quarto
@@ -164,4 +164,4 @@ $$ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos \left( \frac{2 \pi
 
 # Thanks!
 
-This presentation is based on the [SOLES Quarto reveal.js template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+This presentation is based on the [SOLES Quarto reveal.js template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
