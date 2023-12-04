@@ -3,7 +3,11 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 ![Progress](https://progress-bar.dev/90/?title=progress)
 
-This is a Quarto template for creating [reveal.js](https://revealjs.com/#/) presentations. It has minimal styling using the University of Sydney brand guidelines and is effective at presenting code, equations, and figures.
+This is a Quarto template for creating [reveal.js](https://revealjs.com/#/) presentations. It has minimal styling using the University of Sydney brand guidelines and is effective at presenting code, equations, and figures. A single `.qmd` source file can produce USYD-branded documents in HTML, PDF and MS Word formats. Supports publishing to Github Pages.
+
+Note that these are not official templates, but they do follow the University of Sydney's branding guidelines.
+
+If you use this template, you're expected to know how to use Quarto and the command line. If you're not familiar with Quarto, please see the [Quarto documentation](https://quarto.org/docs/getting-started.html) for more information.
 
 ## Using this template
 
@@ -15,7 +19,7 @@ If you are well-versed in Quarto and the CLI, run the following command in your 
 quarto use template usyd-soles-edu/soles-revealjs
 ```
 
-If you know Git, click on the green "**Use this template**" button above to create a new repository based on this template.
+If you know Git, click on the green "**Use this template**" button above to create a new repository based on this template. An advantage in using this method is that you can import all branches from this repository, setting yourself up to publish to GitHub Pages without any further configuration.
 
 ## License and attribution
 
