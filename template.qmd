@@ -97,7 +97,7 @@ Quarto uses [**Pandoc-flavoured Markdown**](https://quarto.org/docs/authoring/ma
 
 ### Formatting
 
-**Bold** and *italic*. `Inline code`. What about a [link](https://quarto.org)? And a footnote[^1]? Perhaps a ~~crossed out text~~? We can also use subscript~s~ and superscript^s^.
+**Bold** and *italic*. `Inline code`. What about a [link](https://quarto.org)? And a footnote[^1]? We can also use subscript~s~ and superscript^s^.
 
 
 ### Lists
