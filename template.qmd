@@ -1,22 +1,14 @@
 ---
 title: Quarto reveal.js Template
 subtitle: School of Life and Environmental Sciences (SOLES)
-format:
-  soles-revealjs:
-    logo: images/usyd_horizontal.svg
-    self-contained: false # set to true to produce a single HTML file
-    transition: none # none | fade | slide | convex | concave | zoom
-    background-transition: none 
-highlight-style: github
 author: Januar Harianto
 institute: The University of Sydney
 date: last-modified # today | last-modified
 date-format: "MMM YYYY" # see https://momentjs.com/docs/#/displaying/format/
-revealjs-plugins:
-  - verticator
 execute: 
   eval: true
   echo: true
+self-contained: false
 ---
 
 # About

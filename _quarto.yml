@@ -1,0 +1,16 @@
+project:
+  title: SOLES Quarto presentation
+standalone: true
+self-contained: true
+slide-level: 2
+highlight-style: github
+
+revealjs-plugins:
+  - verticator
+
+format:
+  soles-revealjs:
+    logo: images/usyd_horizontal.svg
+    self-contained: false # set to true to produce a single HTML file
+    transition: none # none | fade | slide | convex | concave | zoom
+    background-transition: none
