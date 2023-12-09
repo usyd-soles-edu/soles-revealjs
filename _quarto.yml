@@ -1,0 +1,28 @@
+project:
+  title: SOLES Quarto presentation
+standalone: true
+slide-level: 2
+highlight-style: github
+revealjs-plugins:
+  - verticator
+# filters:
+#   - shortcodes.lua
+
+format:
+  soles-revealjs:
+    logo: images/usyd_horizontal.svg
+    self-contained: false # set to true to produce a single HTML file
+    transition: none # none | fade | slide | convex | concave | zoom
+    background-transition: none
+  # pdf:
+  #   template: latex.tex
+  #   # template: _resources/templates/latex-colour.tex
+  #   pdfengine: xelatex
+  #   fontsize: 12pt # 10, 11, or 12pt
+  #   mainfont: Open Sans # main text
+  #   sansfont: Open Sans # header text
+  #   classoption: landscape
+  #   pagestyle: empty
+  #   # cosmiclatte: false # set true to turn on an off-white page background colour
+  # pptx:
+  #   reference-doc: _resources/templates/pptx/cosmic-latte.pptx
