@@ -3,7 +3,7 @@
 .RData
 .Ruserdata
 
-template_files/
+*_files/
 /.quarto/
 
 /.luarc.json
