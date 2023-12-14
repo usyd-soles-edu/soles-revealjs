@@ -6,8 +6,7 @@ highlight-style: github
 revealjs-plugins:
   - verticator
 filters:
-  - shortcodes.lua
-
+  - _extensions/soles/shortcodes.lua
 format:
   soles-revealjs:
     logo: images/usyd_horizontal.svg
