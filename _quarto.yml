@@ -6,7 +6,7 @@ highlight-style: github
 revealjs-plugins:
   - verticator
 filters:
-  - _extensions/soles/shortcodes.lua
+  - _assets/shortcodes.lua
 format:
   soles-revealjs:
     logo: images/usyd_horizontal.svg
@@ -14,7 +14,7 @@ format:
     transition: none # none | fade | slide | convex | concave | zoom
     background-transition: none
   pdf:
-    # template: latex.tex
+    template: _assets/latex.tex
     pdfengine: xelatex
     fontsize: 12pt # 10, 11, or 12pt
     mainfont: Arial # main text Open Sans
@@ -22,4 +22,4 @@ format:
     classoption: landscape
     pagestyle: empty
   # pptx:
-  #   reference-doc: _resources/templates/pptx/cosmic-latte.pptx
+  #   reference-doc: _resources/templates/pptx/solespp.pptx
