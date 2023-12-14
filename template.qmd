@@ -41,7 +41,18 @@ Renders to multiple formats with `quarto render`:
 
 - **HTML** in reveal.js format
 - **PDF** via LaTeX
-- **MS Powerpoint** via Pandoc
+- **MS Powerpoint** via Pandoc (TODO)
+
+
+## PDF output is not 1:1
+
+The default PDF render is not 1:1 with the HTML output.
+To handle this, you can the following:
+
+1. You **must** have Chrome, or a Chromium-based browser installed.
+2. Open the HTML output in Chrome.
+3. Press the `E` key to enter print mode.
+4. Print to PDF using `ctrl` + `p` (Windows) or `cmd` + `p` (macOS).
 
 # Quick start
 
