@@ -15,7 +15,8 @@ function Header(elem)
         elem,
         pandoc.RawBlock('latex', '\\end{center}')
       }
-    else
+    end
+    if elem.level == 2 then
       return {
         pandoc.RawBlock('latex', '\\newpage'),
         elem
@@ -29,7 +30,8 @@ function Header(elem)
         pandoc.RawBlock('html', '<div class="slide">'),
         elem
       }
-    else
+    end
+    if elem.level == 2 then
       return {
         pandoc.RawBlock('html', '</div>'),
         pandoc.RawBlock('html', '<div class="slide">'),
