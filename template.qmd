@@ -22,7 +22,6 @@ Note that you do **not** need to license your presentation under cc-by 4.0. You 
 :::
 
  
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
 
 
 ## Quarto
@@ -31,17 +30,18 @@ A **technical writing** system that produces *reproducible*, *versioned*, and *e
 
 ![](images/quarto.jpeg)
 
-## Features
+## Features (HTML)
 Follows the **University of Sydney** brand guidelines.
 
-### Logos
-The Primary logo is used on the title slide (black), and the secondary horizontal logo is used on the other slides.
+- **Logos** - Primary logo on the title slide (black), and secondary horizontal logo on all other slides.
+- **Fonts** - *Source Sans Pro*, otherwise, *Times New Roman* (official alternate fonts to *Apercu Pro* and *Lyon Display*).
+- **Colours** - Uses the official University of Sydney colours [**Ochre**]{style="color:#e64626"}, [**Charcoal**]{style="color:#424242"}, [**Heritage Rose**]{style="color:#daa8a2"}, [**Jacaranda**]{style="color:#8f9ec9"} and [**Eucalypt**]{style="color:#71a499"}.
 
-### Fonts
-Body text in *Source Sans Pro*, others in *Times New Roman* (official alternate fonts to *Apercu Pro* and *Lyon Display*).
+Renders to multiple formats with `quarto render`:
 
-### Colours
-Colours are applied in a *neutral* way, using the official University of Sydney colour palette of [**Ochre**]{style="color:#e64626"}, [**Charcoal**]{style="color:#424242"}, [**Heritage Rose**]{style="color:#daa8a2"}, [**Jacaranda**]{style="color:#8f9ec9"} and [**Eucalypt**]{style="color:#71a499"}. No colour is applied to the background, except for code blocks.
+- **HTML** in reveal.js format
+- **PDF** via LaTeX
+- **MS Powerpoint** via Pandoc
 
 # Quick start
 
@@ -118,7 +118,9 @@ Quarto uses [**Pandoc-flavoured Markdown**](https://quarto.org/docs/authoring/ma
 
 The advantage of Quarto over traditional slide software is that it allows code and output to be embedded in the document. This means that you can create a document that is **reproducible** and **versioned**.
 
-### Code example 
+For example, the source of this slide is in the `template.qmd` file.
+
+## Code example  1
 
 Using R, we show how to fit a linear regression model and print the model summary. Click on the code dropdown to see the code.
 
@@ -132,7 +134,7 @@ summary(model)
 
 ---
 
-### Code example 2
+## Code example 2
 
 ```{r}
 library(ggplot2)
@@ -157,3 +159,7 @@ $$ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos \left( \frac{2 \pi
 # Thanks!
 
 This presentation is based on the [SOLES Quarto reveal.js template](https://github.com/usyd-soles-edu/soles-revealjs) and is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
+
+
+<!-- Links -->
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
