@@ -7,3 +7,7 @@
 /.quarto/
 
 /.luarc.json
+
+
+template.html
+template.pdf
