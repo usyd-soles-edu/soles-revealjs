@@ -13,12 +13,12 @@ format:
     self-contained: false # set to true to produce a single HTML file
     transition: none # none | fade | slide | convex | concave | zoom
     background-transition: none
-  pdf:
-    pdfengine: xetex
-    fontsize: 12pt # 10, 11, or 12pt
-    mainfont: Arial # main text Open Sans
-    sansfont: Arial # header text Open Sans
-    classoption: landscape
-    pagestyle: empty
+  # pdf:
+  #   pdfengine: xetex
+  #   fontsize: 12pt # 10, 11, or 12pt
+  #   mainfont: Arial # main text Open Sans
+  #   sansfont: Arial # header text Open Sans
+  #   classoption: landscape
+  #   pagestyle: empty
   # pptx:
   #   reference-doc: _resources/templates/pptx/solespp.pptx
