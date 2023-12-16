@@ -449,15 +449,30 @@ Januar Harianto
 <p>A <strong>technical writing</strong> system that produces <em>reproducible</em>, <em>versioned</em>, and <em>extensible</em> documents – the next generation of <a href="https://rmarkdown.rstudio.com/"><strong>R Markdown</strong></a>.</p>
 
 <img data-src="images/quarto.jpeg" class="r-stretch"></section>
-<section id="features" class="slide level2">
-<h2>Features</h2>
+<section id="features-html" class="slide level2">
+<h2>Features (HTML)</h2>
 <p>Follows the <strong>University of Sydney</strong> brand guidelines.</p>
-<h3 id="logos">Logos</h3>
-<p>The Primary logo is used on the title slide (black), and the secondary horizontal logo is used on the other slides.</p>
-<h3 id="fonts">Fonts</h3>
-<p>Body text in <em>Source Sans Pro</em>, others in <em>Times New Roman</em> (official alternate fonts to <em>Apercu Pro</em> and <em>Lyon Display</em>).</p>
-<h3 id="colours">Colours</h3>
-<p>Colours are applied in a <em>neutral</em> way, using the official University of Sydney colour palette of <span style="color:#e64626"><strong>Ochre</strong></span>, <span style="color:#424242"><strong>Charcoal</strong></span>, <span style="color:#daa8a2"><strong>Heritage Rose</strong></span>, <span style="color:#8f9ec9"><strong>Jacaranda</strong></span> and <span style="color:#71a499"><strong>Eucalypt</strong></span>. No colour is applied to the background, except for code blocks.</p>
+<ul>
+<li><strong>Logos</strong> - Primary logo on the title slide (black), and secondary horizontal logo on all other slides.</li>
+<li><strong>Fonts</strong> - <em>Source Sans Pro</em>, otherwise, <em>Times New Roman</em> (official alternate fonts to <em>Apercu Pro</em> and <em>Lyon Display</em>).</li>
+<li><strong>Colours</strong> - Uses the official University of Sydney colours <span style="color:#e64626"><strong>Ochre</strong></span>, <span style="color:#424242"><strong>Charcoal</strong></span>, <span style="color:#daa8a2"><strong>Heritage Rose</strong></span>, <span style="color:#8f9ec9"><strong>Jacaranda</strong></span> and <span style="color:#71a499"><strong>Eucalypt</strong></span>.</li>
+</ul>
+<p>Renders to multiple formats with <code>quarto render</code>:</p>
+<ul>
+<li><strong>HTML</strong> in reveal.js format</li>
+<li><strong>PDF</strong> via LaTeX</li>
+<li><strong>MS Powerpoint</strong> via Pandoc (TODO)</li>
+</ul>
+</section>
+<section id="pdf-output-is-not-11" class="slide level2">
+<h2>PDF output is not 1:1</h2>
+<p>The default PDF render is not 1:1 with the HTML output. To handle this, you can the following:</p>
+<ol type="1">
+<li>You <strong>must</strong> have Chrome, or a Chromium-based browser installed.</li>
+<li>Open the HTML output in Chrome.</li>
+<li>Press the <code>E</code> key to enter print mode.</li>
+<li>Print to PDF using <code>ctrl</code> + <code>p</code> (Windows) or <code>cmd</code> + <code>p</code> (macOS).</li>
+</ol>
 </section></section>
 <section>
 <section id="quick-start" class="title-slide slide level1 center">
@@ -513,7 +528,10 @@ Januar Harianto
 <section id="reproducible-workflows" class="slide level2">
 <h2>Reproducible workflows</h2>
 <p>The advantage of Quarto over traditional slide software is that it allows code and output to be embedded in the document. This means that you can create a document that is <strong>reproducible</strong> and <strong>versioned</strong>.</p>
-<h3 id="code-example">Code example</h3>
+<p>For example, the source of this slide is in the <code>template.qmd</code> file.</p>
+</section>
+<section id="code-example-1" class="slide level2">
+<h2>Code example 1</h2>
 <p>Using R, we show how to fit a linear regression model and print the model summary. Click on the code dropdown to see the code.</p>
 <div class="cell">
 <details>
@@ -545,9 +563,8 @@ F-statistic: 91.38 on 1 and 30 DF,  p-value: 1.294e-10</code></pre>
 </div>
 </div>
 </section>
-<section class="slide level2">
-
-<h3 id="code-example-2">Code example 2</h3>
+<section id="code-example-2" class="slide level2">
+<h2>Code example 2</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">library</span>(ggplot2)</span>
 <span id="cb4-2"><a href="#cb4-2"></a><span class="co"># plot a very nice plot based on iris dataset</span></span>
@@ -569,6 +586,7 @@ F-statistic: 91.38 on 1 and 30 DF,  p-value: 1.294e-10</code></pre>
 <section id="thanks" class="title-slide slide level1 center">
 <h1>Thanks!</h1>
 <p>This presentation is based on the <a href="https://github.com/usyd-soles-edu/soles-revealjs">SOLES Quarto reveal.js template</a> and is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+<!-- Links -->
 
 <img src="images/usyd_horizontal.svg" class="slide-logo r-stretch"><div class="footer footer-default">
 
