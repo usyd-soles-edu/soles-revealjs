@@ -14,8 +14,7 @@ format:
     transition: none # none | fade | slide | convex | concave | zoom
     background-transition: none
   pdf:
-    template: _assets/latex.tex
-    pdfengine: xelatex
+    pdfengine: xetex
     fontsize: 12pt # 10, 11, or 12pt
     mainfont: Arial # main text Open Sans
     sansfont: Arial # header text Open Sans
