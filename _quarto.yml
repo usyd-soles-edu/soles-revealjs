@@ -22,3 +22,5 @@ format:
   #   pagestyle: empty
   # pptx:
   #   reference-doc: _resources/templates/pptx/solespp.pptx
+execute:
+  freeze: auto
