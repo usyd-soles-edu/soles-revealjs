@@ -151,8 +151,8 @@ summary(model)
 library(ggplot2)
 # plot a very nice plot based on iris dataset
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
-  geom_point() +
-  theme_minimal()
+    geom_point() +
+    theme_minimal()
 ```
 
 ## Equations
