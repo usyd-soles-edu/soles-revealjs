@@ -1,5 +1,6 @@
 project:
   title: SOLES Quarto presentation
+  # post-render: _postrender.R # Script to generate PDF at every render (slow).
 standalone: true
 slide-level: 2
 highlight-style: github
