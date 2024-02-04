@@ -1,17 +1,15 @@
 /*-- scss:defaults --*/
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 // Define colors
-$ochre: #e64626;        // primary
-$charcoal: #424242;     // secondary
-$sandstone: #fcede2;    // secondary
-$jacaranda: #8f9ec9;    // tertiary
-$jaca-lite: #dde2ef;    // tertiary
-$heri-rose: #daa8a2;    // tertiary
-$eucalypt: #71a499;     // tertiary
-
+$ochre: #e64626; // primary
+$charcoal: #424242; // secondary
+$sandstone: #fcede2; // secondary
+$jacaranda: #8f9ec9; // tertiary
+$jaca-lite: #dde2ef; // tertiary
+$heri-rose: #daa8a2; // tertiary
+$eucalypt: #71a499; // tertiary
 
 // Body and links
 $body-color: #000; // body text
@@ -32,13 +30,12 @@ $code-block-font-size: 0.7em;
 
 /*-- scss:rules --*/
 
-
 // Align title and subtitle to left
 #title-slide {
   text-align: left;
 
   .quarto-title-authors {
-    justify-content: left!important;
+    justify-content: left !important;
 
     .quarto-title-author {
       padding-left: 0;
@@ -50,24 +47,24 @@ $code-block-font-size: 0.7em;
 
 // Edit title attributes
 #title-slide .title {
-  font-size: 2.2em!important;
+  font-size: 2.8em !important;
   color: $ochre;
 }
 
 // Edit subtitle attributes
 #title-slide .subtitle {
-  font-size: 1.4em!important;
+  font-size: 1.4em !important;
   color: $charcoal;
   width: 80%;
 }
 // Remove slide numbers from title slide
-.reveal .slide-number > a[href*='title-slide'] {
+.reveal .slide-number > a[href*="title-slide"] {
   display: none;
 }
 
 // Make callout font size standard
 .reveal .slides section .callout {
-  font-size: 0.9em!important;
+  font-size: 0.9em !important;
 }
 
 // adjust headings
@@ -79,10 +76,9 @@ $code-block-font-size: 0.7em;
   color: $eucalypt;
 }
 
-
 // code output
 .reveal pre code {
   // background-color: #DAA8A2;
-  color:#e64626;
+  color: #e64626;
   padding: 32px;
 }
