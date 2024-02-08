@@ -6,8 +6,6 @@ slide-level: 2
 highlight-style: github
 revealjs-plugins:
   - verticator
-filters:
-  - _assets/shortcodes.lua
 format:
   revealjs:
     width: 1280
