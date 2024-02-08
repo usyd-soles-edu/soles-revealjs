@@ -407,7 +407,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="_extensions/soles/logo/title-slide.png" data-background-size="contain" class="quarto-title-block center">
+<section id="title-slide" data-background-image="_assets/title-slide.png" data-background-size="contain" class="quarto-title-block center">
   <h1 class="title">Quarto reveal.js Template</h1>
   <p class="subtitle">School of Life and Environmental Sciences (SOLES)</p>
 
@@ -535,13 +535,6 @@ Januar Harianto
 <h2>Code example 1</h2>
 <p>Using R, we show how to fit a linear regression model and print the model summary. Click on the code dropdown to see the code.</p>
 <div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="co"># fit a linear regression model</span></span>
-<span id="cb2-2"><a href=""></a>model <span class="ot">&lt;-</span> <span class="fu">lm</span>(mpg <span class="sc">~</span> wt, <span class="at">data =</span> mtcars)</span>
-<span id="cb2-3"><a href=""></a><span class="co"># print the model summary</span></span>
-<span id="cb2-4"><a href=""></a><span class="fu">summary</span>(model)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -566,14 +559,7 @@ F-statistic: 91.38 on 1 and 30 DF,  p-value: 1.294e-10</code></pre>
 </section>
 <section id="code-example-2" class="slide level2">
 <h2>Code example 2</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb4-2"><a href=""></a><span class="co"># plot a very nice plot based on iris dataset</span></span>
-<span id="cb4-3"><a href=""></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length, <span class="at">y =</span> Sepal.Width, <span class="at">color =</span> Species)) <span class="sc">+</span></span>
-<span id="cb4-4"><a href=""></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb4-5"><a href=""></a>    <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
-</div>
 <img data-src="template_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
 <section id="equations" class="slide level2">
 <h2>Equations</h2>
