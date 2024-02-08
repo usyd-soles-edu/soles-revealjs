@@ -5,10 +5,9 @@ author: Januar Harianto
 institute: The University of Sydney
 date: last-modified # today | last-modified
 date-format: "MMM YYYY" # see https://momentjs.com/docs/#/displaying/format/
-execute: 
-  eval: true
-  echo: true
 self-contained: false
+execute:
+  cache: false
 ---
 
 # About
@@ -22,7 +21,6 @@ Note that you do **not** need to license your presentation under cc-by 4.0. You 
 :::
 
  
-
 
 ## Quarto
 
