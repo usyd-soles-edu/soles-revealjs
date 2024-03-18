@@ -1,23 +1,6 @@
 project:
-  title: SOLES Quarto presentation
-  # post-render: _postrender.R # Script to generate PDF at every render (slow).
-standalone: true
-slide-level: 2
-highlight-style: github
-revealjs-plugins:
-  - verticator
-format:
-  revealjs:
-    width: 1280
-    height: 720
-    slide-number: c/t
-    theme: [custom.scss]
-    title-slide-attributes:
-      data-background-image: _assets/title-slide.png
-      data-background-size: contain
-    html-math-method: katex
-    logo: images/usyd_horizontal.svg
-    transition: none # none | fade | slide | convex | concave | zoom
-    background-transition: none
-execute:
-  freeze: auto
+  title: SOLES Quarto reveal.js
+  # comment out below until the draft is finalised
+  # post-render: _postrender.R # Script to generate PDF at every render
+format: 
+  soles-revealjs: default
