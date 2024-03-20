@@ -5,6 +5,10 @@ author:
   - name: Dr Januar Harianto
     affiliations: The University of Sydney
 date: last-modified
+self-contained: true
+execute:
+  freeze: auto
+  cache: false
 # NOTE: please check _quarto.yml file for more options
 ---
 
