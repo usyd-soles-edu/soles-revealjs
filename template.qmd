@@ -2,7 +2,7 @@
 title: Quarto `reveal.js` template
 subtitle: School of Life and Environmental Sciences (SOLES)
 author:
-  - name: Dr Januar Harianto
+  - name: Januar Harianto
     affiliations: The University of Sydney
 date: last-modified
 self-contained: true
