@@ -1,23 +1,9 @@
 project:
-  title: SOLES Quarto presentation
-  # post-render: _postrender.R # Script to generate PDF at every render (slow).
-standalone: true
-slide-level: 2
-highlight-style: github
-revealjs-plugins:
-  - verticator
-format:
-  revealjs:
-    width: 1280
-    height: 720
-    slide-number: c/t
-    theme: [custom.scss]
-    title-slide-attributes:
-      data-background-image: _assets/title-slide.png
-      data-background-size: contain
-    html-math-method: katex
-    logo: images/usyd_horizontal.svg
-    transition: none # none | fade | slide | convex | concave | zoom
-    background-transition: none
+  title: SOLES Quarto reveal.js
+  # post-render: _postrender.R # Script to generate PDF at every render, leave this commented out when pushin to GitHub as `renderthis` is poorly supported in GitHub Actions
+format: 
+  soles-revealjs: default
 execute:
   freeze: auto
+  cache: false
+chalkboard: true

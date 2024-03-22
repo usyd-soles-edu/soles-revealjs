@@ -1,13 +1,11 @@
 ---
-title: Quarto reveal.js Template
+title: Quarto `reveal.js` template
 subtitle: School of Life and Environmental Sciences (SOLES)
-author: Januar Harianto
-institute: The University of Sydney
-date: last-modified # today | last-modified
-date-format: "MMM YYYY" # see https://momentjs.com/docs/#/displaying/format/
-self-contained: false
-execute:
-  cache: false
+author:
+  - name: Januar Harianto
+    affiliations: The University of Sydney
+embed-resources: true # embed resources into single HTML file -- enable when ready to publish
+# NOTE: please check _quarto.yml file for more options
 ---
 
 # About
