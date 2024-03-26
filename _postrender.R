@@ -1,5 +1,5 @@
 # This script automatically detects whether the user is on a Windows or Mac OS
-# and if so, it will search for an html file in the current directory and 
+# and if so, it will search for an html file in the current directory and
 # convert it to a pdf file with the same name. Requires the chromote and
 # renderthis packages to be installed, which are most likely already installed
 # if you are using the renv package and you have run either `renv::restore()` or
@@ -10,11 +10,11 @@
 # time.
 
 get_os <- function() {
-  if (.Platform$OS.type == "windows") { 
+  if (.Platform$OS.type == "windows") {
     "win"
   } else if (Sys.info()["sysname"] == "Darwin") {
-    "mac" 
-  } else if (.Platform$OS.type == "unix") { 
+    "mac"
+  } else if (.Platform$OS.type == "unix") {
     "unix"
   } else {
     stop("Unknown OS")
@@ -37,4 +37,3 @@ if (get_os() == "mac" | get_os() == "win") {
 } else {
   print("❌ Auto render is restricted to Windows or Mac OS")
 }
-
