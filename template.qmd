@@ -20,6 +20,7 @@ Note that you do **not** need to license your presentation under cc-by 4.0. You 
 
  
 
+
 ## Quarto
 
 A **technical writing** system that produces *reproducible*, *versioned*, and *extensible* documents -- the next generation of [**R Markdown**](https://rmarkdown.rstudio.com/).
@@ -76,6 +77,7 @@ With the [**Quarto CLI**](https://quarto.org/docs/getting-started/installation.h
 ```sh
 quarto use template usyd-soles-edu/soles-revealjs
 ```
+
 ### 2. Download the template directly
 
 You can download the template folder directly from GitHub, ready to use. Go to the [repository](https://github.com/usyd-soles-edu/soles-revealjs) and click on "< > Code", then "Download ZIP". Once you unzip the folder.
@@ -92,6 +94,10 @@ All written content is in the `template.qmd` file. You may rename this file to w
 ### HTML output
 
 Slides that are generated from this template are in HTML format. You can view the slides by opening the `.html` file in your browser. This file is generated in the same folder as the `.qmd` file.
+
+### Options
+
+Edit the `_quarto.yml` file to override the default options. For example, you can enable or disable the table of contents, change the theme, and more. You will need to know about [Quarto project basics](https://quarto.org/docs/projects/quarto-projects.html)to do this.
 
 
 
@@ -139,8 +145,6 @@ model <- lm(mpg ~ wt, data = mtcars)
 summary(model)
 ```
 
----
-
 ## Code example 2
 
 ```{r}
@@ -148,7 +152,7 @@ library(ggplot2)
 # plot a very nice plot based on iris dataset
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) +
     geom_point() +
-    theme_minimal()
+    theme_classic()
 ```
 
 ## Equations
@@ -162,6 +166,17 @@ Inline equations are surrounded by `$`. For example, the equation $y = \beta_0 +
 Display equations are surrounded by `$$`. For example, one way to display the equation for a [Fourier series](https://en.wikipedia.org/wiki/Fourier_series) is:
 
 $$ f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left[ a_n \cos \left( \frac{2 \pi n x}{L} \right) + b_n \sin \left( \frac{2 \pi n x}{L} \right) \right] $$
+
+## Callout blocks
+
+::: {.callout-note}
+Callout blocks are a way to draw attention to important points. They are rendered in a larger font size in this template.
+:::
+
+::: {.callout-tip}
+Read more about callout blocks in the [Quarto documentation](https://quarto.org/docs/authoring/callouts.html).
+:::
+
 
 # Thanks!
 
