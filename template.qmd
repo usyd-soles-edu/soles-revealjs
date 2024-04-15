@@ -69,7 +69,7 @@ Users familiar with [RStudio](https://posit.co/) can also use it to write Quarto
 
 There are three (3) ways:
 
-
+::: fragment
 ### 1. Recommended: Use the Quarto CLI
 
 With the [**Quarto CLI**](https://quarto.org/docs/getting-started/installation.html#installing-the-quarto-cli) installed, run the following command in your terminal and follow the instructions:
@@ -77,15 +77,20 @@ With the [**Quarto CLI**](https://quarto.org/docs/getting-started/installation.h
 ```sh
 quarto use template usyd-soles-edu/soles-revealjs
 ```
+:::
 
+
+::: fragment
 ### 2. Download the template directly
 
 You can download the template folder directly from GitHub, ready to use. Go to the [repository](https://github.com/usyd-soles-edu/soles-revealjs) and click on "< > Code", then "Download ZIP". Once you unzip the folder.
+:::
 
-
+::: fragment
 ### 3. Clone the template repository
 
 Go to the [repository](https://github.com/usyd-soles-edu/soles-revealjs) and click on "Use this template". Note that you will need to be familiar with Git and GitHub to use this method.
+:::
 
 ## Editing the template
 
