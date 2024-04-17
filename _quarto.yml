@@ -5,4 +5,5 @@ format:
   soles-revealjs: default
 execute:
   freeze: auto
+  echo: true
   cache: false
