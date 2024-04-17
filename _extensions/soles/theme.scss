@@ -29,8 +29,8 @@ $presentation-heading-line-height: 2;
 // $presentation-block-margin: 28px;
 $presentation-font-size-root: 24px;
 $presentation-h1-font-size: 2em;
-$presentation-h2-font-size: 1.5em;
-$presentation-h3-font-size: 1.15em;
+$presentation-h2-font-size: 1.6em;
+$presentation-h3-font-size: 1.2em;
 
 // colors
 //$body-bg: #f0f1eb !default;
@@ -51,7 +51,7 @@ $code-block-font-size: 0.7em;
 
 .reveal p {
   font-weight: lighter;
-  margin-top: 1.25em;
+  margin-top: 0em;
 }
 
 
@@ -113,7 +113,6 @@ $code-block-font-size: 0.7em;
   // font-style: italic;
   font-weight: 900;
   margin-top: 1.25em;
-  // margin-bottom: -1em;
 }
 
 .reveal h4 {
@@ -125,7 +124,7 @@ $code-block-font-size: 0.7em;
 // resize callout blocks
 div {
   &.callout {
-    font-size: 1.75rem !important;
+    font-size: 1.7rem !important;
   }
 }
 
