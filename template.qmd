@@ -152,6 +152,7 @@ summary(model)
 
 ## Code example 2
 
+In this example code folding is not activated, allowing viewers to see the code that generates the plot.
 ```{r}
 library(ggplot2)
 # plot a very nice plot based on iris dataset
