@@ -128,6 +128,10 @@ div {
   }
 }
 
+.callout.callout-style-default div.callout-content {
+  font-size: 1.6rem !important;
+}
+
 // adjust code output
 .reveal pre code {
   background-color: $sandstone;
