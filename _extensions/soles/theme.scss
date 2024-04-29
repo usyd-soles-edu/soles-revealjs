@@ -27,7 +27,7 @@ $presentation-heading-color: $charcoal !default;
 $presentation-heading-font-weight: lighter;
 $presentation-heading-line-height: 2;
 // $presentation-block-margin: 28px;
-$presentation-font-size-root: 24px;
+$presentation-font-size-root: 22px;
 $presentation-h1-font-size: 2em;
 $presentation-h2-font-size: 1.6em;
 $presentation-h3-font-size: 1.2em;
@@ -154,8 +154,12 @@ div {
 // lists
 // unordered lists
 
+.reveal .slide ul, .reveal .slide ol {
+  margin-bottom: 0.5em;
+  margin-top: auto;
+}
+
 .reveal ul {
-  margin-top: 1em;
   font-weight: lighter;
   padding-left: 16px;
 
@@ -164,6 +168,9 @@ div {
   }
 }
 
+
+
+// style list items with arrows
 .reveal ul ul {
   list-style: none;
 
