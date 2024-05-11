@@ -123,7 +123,7 @@ Quarto uses [**Pandoc-flavoured Markdown**](https://quarto.org/docs/authoring/ma
 - Lists **must** be preceded by a blank line.
 - We can also created nested lists:
   1. This list is ordered.
-  2. This list is also nexted.
+     - Next item in the list, nested and back to unordered.
 
 
 [^1]: This is a footnote.
