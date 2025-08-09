@@ -368,8 +368,23 @@ F-statistic: 91.38 on 1 and 30 DF,  p-value: 1.294e-10</code></pre>
 <section id="code-example-3" class="slide level2">
 <h2>Code example 3</h2>
 <p>In this example we use the <code>#| output-location: column</code> execution option to automatically place the output in a column next to the code. As execution options are not shown in Quartz slides, you will need to view the <code>.qmd</code> source of this slide to see how it is implemented.</p>
-
-<img data-src="template_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<div class="cell columns column-output-location">
+<div class="column">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">ggplot</span>(iris, <span class="fu">aes</span>(<span class="at">x =</span> Sepal.Length,</span>
+<span id="cb3-2"><a></a>       <span class="at">y =</span> Sepal.Width, <span class="at">color =</span> Species)) <span class="sc">+</span></span>
+<span id="cb3-3"><a></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb3-4"><a></a>    <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">20</span>) <span class="sc">+</span></span>
+<span id="cb3-5"><a></a>    <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="template_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
 <section id="equations" class="slide level2">
 <h2>Equations</h2>
 <p>Equations are based on <a href="https://www.latex-project.org/"><strong>LaTeX</strong></a> and powered by <a href="https://quarto.org/docs/authoring/math.html"><strong>MathJax</strong></a>.</p>

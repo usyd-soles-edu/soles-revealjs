@@ -74,7 +74,7 @@
     "href": "template.html#code-example-3",
     "title": "Quarto reveal.js template",
     "section": "Code example 3",
-    "text": "Code example 3\nIn this example we use the #| output-location: column execution option to automatically place the output in a column next to the code. As execution options are not shown in Quartz slides, you will need to view the .qmd source of this slide to see how it is implemented."
+    "text": "Code example 3\nIn this example we use the #| output-location: column execution option to automatically place the output in a column next to the code. As execution options are not shown in Quartz slides, you will need to view the .qmd source of this slide to see how it is implemented.\n\n\nggplot(iris, aes(x = Sepal.Length,\n       y = Sepal.Width, color = Species)) +\n    geom_point() +\n    theme_classic(base_size = 20) +\n    theme(legend.position = \"bottom\")"
   },
   {
     "objectID": "template.html#equations",
