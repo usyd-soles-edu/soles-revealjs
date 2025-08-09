@@ -24,7 +24,7 @@ $font-family-monospace: "JetBrains Mono", monospace !default;
 
 
 $presentation-heading-color: $charcoal !default;
-$presentation-heading-font-weight: lighter;
+$presentation-heading-font-weight: normal;
 $presentation-heading-line-height: 2;
 // $presentation-block-margin: 28px;
 $presentation-font-size-root: 22px;
@@ -50,7 +50,7 @@ $code-block-font-size: 0.7em;
 }
 
 .reveal p {
-  font-weight: lighter;
+  font-weight: normal;
   margin-top: 1em;
 }
 
@@ -69,7 +69,7 @@ $code-block-font-size: 0.7em;
   .subtitle {
     color: $charcoal;
     margin-top: 0em;
-    font-weight: lighter;
+    font-weight: normal;
   }
 
   .institute,
@@ -124,12 +124,12 @@ $code-block-font-size: 0.7em;
 // resize callout blocks
 div {
   &.callout {
-    font-size: 1.7rem !important;
+    font-size: 1.2rem !important;
   }
 }
 
 .callout.callout-style-default div.callout-content {
-  font-size: 1.6rem !important;
+  font-size: 1.2rem !important;
 }
 
 // adjust code output
@@ -160,7 +160,7 @@ div {
 }
 
 .reveal ul {
-  font-weight: lighter;
+  font-weight: normal;
   padding-left: 16px;
 
   li::marker {
@@ -187,7 +187,7 @@ div {
 // Ordered lists
 
 .reveal ol {
-  font-weight: lighter;
+  font-weight: normal;
   padding-left: 16px;
 
   li::marker {
