@@ -160,6 +160,7 @@ In this example we use the `#| output-location: column` execution option to auto
 
 ```{r}
 #| output-location: column
+#| echo: true
 ggplot(iris, aes(x = Sepal.Length,
        y = Sepal.Width, color = Species)) +
     geom_point() +
