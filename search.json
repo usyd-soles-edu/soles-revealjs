@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "template.html#quarto",
+    "href": "template.html#quarto",
+    "title": "Quarto reveal.js template",
+    "section": "Quarto",
+    "text": "Quarto\nA technical writing system that produces reproducible, versioned, and extensible documents – the next generation of R Markdown."
+  },
+  {
+    "objectID": "template.html#features-html",
+    "href": "template.html#features-html",
+    "title": "Quarto reveal.js template",
+    "section": "Features (HTML)",
+    "text": "Features (HTML)\nFollows the University of Sydney brand guidelines.\n\nLogos - Primary logo on the title slide (black), and secondary horizontal logo on all other slides.\nFonts - Source Sans Pro, otherwise, Times New Roman (official alternate fonts to Apercu Pro and Lyon Display).\nColours - Uses the official University of Sydney colours Ochre, Charcoal, Heritage Rose, Jacaranda and Eucalypt.\n\nRenders to multiple formats with quarto render:\n\nHTML in reveal.js format\nPDF via LaTeX\nMS Powerpoint via Pandoc (TODO)"
+  },
+  {
+    "objectID": "template.html#pdf-output-is-not-11",
+    "href": "template.html#pdf-output-is-not-11",
+    "title": "Quarto reveal.js template",
+    "section": "PDF output is not 1:1",
+    "text": "PDF output is not 1:1\nThe default PDF render is not 1:1 with the HTML output. To handle this, you can the following:\n\nYou must have Chrome, or a Chromium-based browser installed.\nOpen the HTML output in Chrome.\nPress the E key to enter print mode.\nPrint to PDF using ctrl + p (Windows) or cmd + p (macOS)."
+  },
+  {
+    "objectID": "template.html#installing-quarto",
+    "href": "template.html#installing-quarto",
+    "title": "Quarto reveal.js template",
+    "section": "Installing Quarto",
+    "text": "Installing Quarto\nQuarto is available for Windows, macOS, and Linux. See installation instructions.\nRecommendation\nVisual Studio Code is recommended as the editor for Quarto. It is free, open-source, and has a lot of extensions that can be used to enhance the writing experience.\nHowever…\nUsers familiar with RStudio can also use it to write Quarto documents. See here for more information."
+  },
+  {
+    "objectID": "template.html#installing-this-template",
+    "href": "template.html#installing-this-template",
+    "title": "Quarto reveal.js template",
+    "section": "Installing this template",
+    "text": "Installing this template\nThere are three (3) ways:\n\n1. Recommended: Use the Quarto CLI\nWith the Quarto CLI installed, run the following command in your terminal and follow the instructions:\nquarto use template usyd-soles-edu/soles-revealjs\n\n\n2. Download the template directly\nYou can download the template folder directly from GitHub, ready to use. Go to the repository and click on “&lt; &gt; Code”, then “Download ZIP”. Once you unzip the folder.\n\n\n3. Clone the template repository\nGo to the repository and click on “Use this template”. Note that you will need to be familiar with Git and GitHub to use this method."
+  },
+  {
+    "objectID": "template.html#editing-the-template",
+    "href": "template.html#editing-the-template",
+    "title": "Quarto reveal.js template",
+    "section": "Editing the template",
+    "text": "Editing the template\nAll written content is in the template.qmd file. You may rename this file to whatever you like.\nHTML output\nSlides that are generated from this template are in HTML format. You can view the slides by opening the .html file in your browser. This file is generated in the same folder as the .qmd file.\nOptions\nEdit the _quarto.yml file to override the default options. For example, you can enable or disable the table of contents, change the theme, and more. You will need to know about Quarto project basicsto do this."
+  },
+  {
+    "objectID": "template.html#markdown",
+    "href": "template.html#markdown",
+    "title": "Quarto reveal.js template",
+    "section": "Markdown",
+    "text": "Markdown\nFlavour\nQuarto uses Pandoc-flavoured Markdown for text formatting.\nFormatting\nBold and italic. Inline code. What about a link? And a footnote1? We can also use subscripts and superscripts.\nLists\n\nLists must be preceded by a blank line.\nWe can also created nested lists:\n\nThis list is ordered.\n\nNext item in the list, nested and back to unordered.\n\n\n\nThis is a footnote."
+  },
+  {
+    "objectID": "template.html#reproducible-workflows",
+    "href": "template.html#reproducible-workflows",
+    "title": "Quarto reveal.js template",
+    "section": "Reproducible workflows",
+    "text": "Reproducible workflows\nThe advantage of Quarto over traditional slide software is that it allows code and output to be embedded in the document. This means that you can create a document that is reproducible and versioned.\nFor example, the source of this slide is in the template.qmd file."
+  },
+  {
+    "objectID": "template.html#code-example-1",
+    "href": "template.html#code-example-1",
+    "title": "Quarto reveal.js template",
+    "section": "Code example 1",
+    "text": "Code example 1\nUsing R, we show how to fit a linear regression model and print the model summary. Click on the code dropdown to see the code.\n\n\n\nCall:\nlm(formula = mpg ~ wt, data = mtcars)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-4.5432 -2.3647 -0.1252  1.4096  6.8727 \n\nCoefficients:\n            Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)  37.2851     1.8776  19.858  &lt; 2e-16 ***\nwt           -5.3445     0.5591  -9.559 1.29e-10 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 3.046 on 30 degrees of freedom\nMultiple R-squared:  0.7528,    Adjusted R-squared:  0.7446 \nF-statistic: 91.38 on 1 and 30 DF,  p-value: 1.294e-10"
+  },
+  {
+    "objectID": "template.html#code-example-2",
+    "href": "template.html#code-example-2",
+    "title": "Quarto reveal.js template",
+    "section": "Code example 2",
+    "text": "Code example 2\nIn this example code folding is not activated, allowing viewers to see the code that generates the plot."
+  },
+  {
+    "objectID": "template.html#code-example-3",
+    "href": "template.html#code-example-3",
+    "title": "Quarto reveal.js template",
+    "section": "Code example 3",
+    "text": "Code example 3\nIn this example we use the #| output-location: column execution option to automatically place the output in a column next to the code. As execution options are not shown in Quartz slides, you will need to view the .qmd source of this slide to see how it is implemented."
+  },
+  {
+    "objectID": "template.html#equations",
+    "href": "template.html#equations",
+    "title": "Quarto reveal.js template",
+    "section": "Equations",
+    "text": "Equations\nEquations are based on LaTeX and powered by MathJax.\nInline equations\nInline equations are surrounded by $. For example, the equation y = \\beta_0 + \\beta_1 x + \\epsilon is a linear regression model.\nDisplay equations\nDisplay equations are surrounded by $$. For example, one way to display the equation for a Fourier series is:\n f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos \\left( \\frac{2 \\pi n x}{L} \\right) + b_n \\sin \\left( \\frac{2 \\pi n x}{L} \\right) \\right]"
+  },
+  {
+    "objectID": "template.html#callout-blocks",
+    "href": "template.html#callout-blocks",
+    "title": "Quarto reveal.js template",
+    "section": "Callout blocks",
+    "text": "Callout blocks\n\n\n\n\n\n\nNote\n\n\nCallout blocks are a way to draw attention to important points. They are rendered in a larger font size in this template.\n\n\n\n\n\n\n\n\n\nTip\n\n\nRead more about callout blocks in the Quarto documentation."
+  }
+]
