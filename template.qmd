@@ -4,7 +4,7 @@ subtitle: School of Life and Environmental Sciences (SOLES)
 author:
   - name: Januar Harianto
     affiliations: The University of Sydney
-embed-resources: true # embed resources into single HTML file -- enable when ready to publish
+embed-resources: false # embed resources into single HTML file -- enable when ready to publish
 # NOTE: please check _quarto.yml file for more options
 ---
 
