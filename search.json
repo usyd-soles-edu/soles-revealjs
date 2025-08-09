@@ -11,14 +11,14 @@
     "href": "template.html#features-html",
     "title": "Quarto reveal.js template",
     "section": "Features (HTML)",
-    "text": "Features (HTML)\nFollows the University of Sydney brand guidelines.\n\nLogos - Primary logo on the title slide (black), and secondary horizontal logo on all other slides.\nFonts - Source Sans Pro, otherwise, Times New Roman (official alternate fonts to Apercu Pro and Lyon Display).\nColours - Uses the official University of Sydney colours Ochre, Charcoal, Heritage Rose, Jacaranda and Eucalypt.\n\nRenders to multiple formats with quarto render:\n\nHTML in reveal.js format\nPDF via LaTeX\nMS Powerpoint via Pandoc (TODO)"
+    "text": "Features (HTML)\nFollows the University of Sydney brand guidelines.\n\nLogos - Primary logo on the title slide (black), and secondary horizontal logo on all other slides.\nColours - Uses the official University of Sydney colours Ochre, Charcoal, Heritage Rose, Jacaranda and Eucalypt."
   },
   {
-    "objectID": "template.html#pdf-output-is-not-11",
-    "href": "template.html#pdf-output-is-not-11",
+    "objectID": "template.html#pdf-output",
+    "href": "template.html#pdf-output",
     "title": "Quarto reveal.js template",
-    "section": "PDF output is not 1:1",
-    "text": "PDF output is not 1:1\nThe default PDF render is not 1:1 with the HTML output. To handle this, you can the following:\n\nYou must have Chrome, or a Chromium-based browser installed.\nOpen the HTML output in Chrome.\nPress the E key to enter print mode.\nPrint to PDF using ctrl + p (Windows) or cmd + p (macOS)."
+    "section": "PDF output",
+    "text": "PDF output\n\nYou must have Chrome, or a Chromium-based browser installed.\nOpen the HTML output in Chrome.\nPress the E key to enter print mode.\nPrint to PDF using ctrl + p (Windows) or cmd + p (macOS)."
   },
   {
     "objectID": "template.html#installing-quarto",
