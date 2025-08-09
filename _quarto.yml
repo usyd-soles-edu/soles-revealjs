@@ -1,9 +1,8 @@
 project:
+  type: website
   title: SOLES Quarto reveal.js
   # post-render: _postrender.R # Script to generate PDF at every render, leave this commented out when pushin to GitHub as `renderthis` is poorly supported in GitHub Actions
 format: 
   soles-revealjs: default
 execute:
   freeze: auto
-  echo: true
-  cache: false
