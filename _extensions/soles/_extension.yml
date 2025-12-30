@@ -10,7 +10,7 @@ contributes:
         side: left
       slide-number: true
       date: last-modified
-      date-format: "MMM YYYY"
+      date-format: "[Semester 2, ] YYYY"
       html-math-method: katex
       title-slide-attributes:
         data-background-image: "title-slide.png"
