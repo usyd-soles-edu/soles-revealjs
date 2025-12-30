@@ -1,14 +1,27 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
-*_files/
+# Quarto
 /.quarto/
 /_site/
+*_files/
+*_cache/
+**/*.quarto_ipynb
 
+# Rendered output (regenerated on build)
+/*.html
+/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+*~
 /.luarc.json
-
-
-template.html
-template.pdf
